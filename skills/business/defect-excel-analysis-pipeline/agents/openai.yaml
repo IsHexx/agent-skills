@@ -1,0 +1,4 @@
+display_name: Defect Excel Analysis Pipeline
+short_description: Clean defects Excel then generate module/severity/person summaries.
+default_prompt: |
+  Clean the provided defects Excel into the standard "work items + Sheet1" format, then generate an analysis workbook with module summary, severity summary, and person x severity. If requested, re-evaluate severities with the LLM and write 调整理由 for changed rows.

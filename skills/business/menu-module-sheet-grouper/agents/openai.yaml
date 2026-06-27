@@ -1,0 +1,4 @@
+interface:
+  display_name: "需求文档菜单路径提取"
+  short_description: "输入需求Markdown，提取多级标题并过滤查询条件/弹窗字段/校验规则/列表字段/功能按钮等细项，拼接菜单路径并按模块输出Excel多个Sheet。"
+  default_prompt: "请读取我提供的需求文档Markdown（.md），提取从一级到最后一级的标题层级，过滤包含 查询条件/弹窗字段/校验规则/列表字段/功能按钮 的标题行及其子级，然后拼接为菜单路径，并输出按一级标题分组的Excel（含合并路径Sheet+模块Sheet+汇总Sheet）。"

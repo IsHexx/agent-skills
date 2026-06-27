@@ -1,0 +1,4 @@
+interface:
+  display_name: "钉钉加班申请生成"
+  short_description: "从钉钉考勤截图与周报Excel生成加班申请文本（18:10起算、周六全天、加班<1小时不计等规则）"
+  default_prompt: "读取钉钉考勤截图和周报xlsx，按规则生成指定月份加班申请文本，并输出到txt。"

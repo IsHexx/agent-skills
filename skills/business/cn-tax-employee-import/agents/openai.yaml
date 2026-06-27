@@ -1,0 +1,4 @@
+interface:
+  display_name: "个税人员导入"
+  short_description: "提取个税文本并写入人员工资Excel模板"
+  default_prompt: "Use $cn-tax-employee-import to extract employee and payroll data from Chinese tax export .txt files into the matching Excel import templates."
