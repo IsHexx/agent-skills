@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu DocX Extractor"
+  short_description: "Export authorized Feishu docs with images"
+  default_prompt: "Use $feishu-docx-extractor to export this authorized Feishu wiki/docx document to local Markdown/TXT with images: <url>"

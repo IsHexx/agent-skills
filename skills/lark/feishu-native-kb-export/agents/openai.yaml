@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Native KB Export"
+  short_description: "Export Feishu/Lark wiki trees with native downloads"
+  default_prompt: "Use $feishu-native-kb-export to enumerate a Feishu/Lark wiki branch and export each node with browser-native formats."
