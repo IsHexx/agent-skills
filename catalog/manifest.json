@@ -1,0 +1,1962 @@
+[
+  {
+    "Name": "aionui-webui-setup",
+    "Directory": "skills/aionui-webui-setup",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\aionui-webui-setup",
+    "Hash": "144E4DF9161358AC7714B2CE4C75BF2317EAA7587244E47D0F7370F2E09B7115",
+    "Description": "'AionUi WebUI configuration expert: Helps users configure AionUi WebUI mode for remote access through the settings interface. Supports LAN connection, Tailscale VPN, and server deployment. Use when users need to set up AionUi WebUI, configure remote access, troubleshoot WebUI issues, or deploy AionUi on servers.'",
+    "Status": "copied"
+  },
+  {
+    "Name": "android-dev",
+    "Directory": "skills/android-dev",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.zcode\\cli\\plugins\\cache\\zcode-plugins-official\\android-emulator\\0.1.0\\skills\\android-dev",
+    "Hash": "34CF7F0580AB4E81295C01872FAD2586DB062CCD2F51BEFA3580334DBDCE009F",
+    "Description": "通过 android-emulator MCP 工具构建、运行、检查并轻量自动化 Android 应用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-article-illustrator",
+    "Directory": "skills/baoyu-article-illustrator",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-article-illustrator",
+    "Hash": "27404B4C9E65373038E2AFBAC971280497A15117EB09B4794A409C8229E01AD0",
+    "Description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-comic",
+    "Directory": "skills/baoyu-comic",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-comic",
+    "Hash": "1CD6572721F38D1189737AE6D0D8C855DF2A018993675C4B1C7A143FEB9A5D98",
+    "Description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-compress-image",
+    "Directory": "skills/baoyu-compress-image",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-compress-image",
+    "Hash": "184EACDBD970ECA2217F04B884C7E519D3D1243F249533478BFA926DBB783134",
+    "Description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-cover-image",
+    "Directory": "skills/baoyu-cover-image",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-cover-image",
+    "Hash": "EEADC8B1CDD9F4A23A6E8193D6D442D55F2BAC63DDE8554B67572C5DB228C0D8",
+    "Description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 10 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-danger-gemini-web",
+    "Directory": "skills/baoyu-danger-gemini-web",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-danger-gemini-web",
+    "Hash": "C6790AA495438A9400EDD8F175AFE8914C2D868A01B10BD3BC5E22DC7641F13D",
+    "Description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-danger-x-to-markdown",
+    "Directory": "skills/baoyu-danger-x-to-markdown",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-danger-x-to-markdown",
+    "Hash": "9728BAA5864BC05DC7BD530BF581A7D97722A3B858170419117650B83044F8C8",
+    "Description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-format-markdown",
+    "Directory": "skills/baoyu-format-markdown",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-format-markdown",
+    "Hash": "25045B961BF838B580AAC8CDDFCA3AAB73CB9914EC5B78A12D3D12E386E5DF75",
+    "Description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-image-gen",
+    "Directory": "skills/baoyu-image-gen",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-image-gen",
+    "Hash": "B41209215322ED11A3739057E083B47AA32CE701C9339AA019396E4212EB5BF2",
+    "Description": "AI image generation with OpenAI, Google, OpenRouter, DashScope, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-infographic",
+    "Directory": "skills/baoyu-infographic",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-infographic",
+    "Hash": "EEDB3C87B044D735AC789F03D84CC653952135268E4D8CC3D5F14F0A5D476262",
+    "Description": "Generates professional infographics with 21 layout types and 20 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-markdown-to-html",
+    "Directory": "skills/baoyu-markdown-to-html",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-markdown-to-html",
+    "Hash": "830F9CA97801BED939F83253B3BE3600422C5F16EC5484360E3C7B67E8CFC2E6",
+    "Description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-post-to-wechat",
+    "Directory": "skills/baoyu-post-to-wechat",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-post-to-wechat",
+    "Hash": "E4B63E29B0EBEB6B276601FAC6395E95FF34B8FA6C1171D5A55D0F8F5C4C7B4A",
+    "Description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-post-to-weibo",
+    "Directory": "skills/baoyu-post-to-weibo",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-post-to-weibo",
+    "Hash": "871C8E4E54020D72CC0074A99CB5EEB2E584CDD7A7A0D4677E0758F6BCFE3892",
+    "Description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-post-to-x",
+    "Directory": "skills/baoyu-post-to-x",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-post-to-x",
+    "Hash": "8FA1395A378A4D397350224A1BB5658E42AA02B68491D312A5953D5B14D72305",
+    "Description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-slide-deck",
+    "Directory": "skills/baoyu-slide-deck",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-slide-deck",
+    "Hash": "CBA93B24FEBA171B5BFB2BA1C0958451C7D41911E90AC0EC422119D55C482AE0",
+    "Description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-translate",
+    "Directory": "skills/baoyu-translate",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-translate",
+    "Hash": "FC70F023F53F6432C5488C379B637E1C9656B99CCD5A1F82923B25C4CE96D4BB",
+    "Description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-url-to-markdown",
+    "Directory": "skills/baoyu-url-to-markdown",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-url-to-markdown",
+    "Hash": "6F265D24DFC4864DA520B0C5610F7A2E9E35226078A07343A6C1AB2A37C39264",
+    "Description": "Fetch any URL and convert to markdown using Chrome CDP. Saves the rendered HTML snapshot alongside the markdown, uses an upgraded Defuddle pipeline with better web-component handling and YouTube transcript extraction, and automatically falls back to the pre-Defuddle HTML-to-Markdown pipeline when needed. If local browser capture fails entirely, it can fall back to the hosted defuddle.md API. Supports two modes - auto-capture on page load, or wait for user signal (for pages requiring login). Use when user wants to save a webpage as markdown.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-xhs-images",
+    "Directory": "skills/baoyu-xhs-images",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-xhs-images",
+    "Hash": "27A03B4219B85CA99D0379CE439559C145A2DDDBB553885E3710CFA25ED746FF",
+    "Description": "Generates Xiaohongshu (Little Red Book) infographic series with 11 visual styles and 8 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions \"小红书图片\", \"XHS images\", \"RedNote infographics\", \"小红书种草\", or wants social media infographics for Chinese platforms.",
+    "Status": "copied"
+  },
+  {
+    "Name": "baoyu-youtube-transcript",
+    "Directory": "skills/baoyu-youtube-transcript",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\skills\\baoyu-youtube-transcript",
+    "Hash": "C99A6B62968FA2BE02FD8A9567310DF327A129A90FF5DE2409780828758F9B0A",
+    "Description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
+    "Status": "copied"
+  },
+  {
+    "Name": "brainstorming",
+    "Directory": "skills/brainstorming",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\brainstorming",
+    "Hash": "BBA47904A7F6BBEE3BF8A107EBBE84E65D392BE683BBB898DED736B29E415F90",
+    "Description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+    "Status": "copied"
+  },
+  {
+    "Name": "brandkit",
+    "Directory": "skills/brandkit",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\brandkit",
+    "Hash": "A250C7B41AECACC412260DE2FB429D36ADA5F668388AAD1770289FA3E5C4F740",
+    "Description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+    "Status": "copied"
+  },
+  {
+    "Name": "browser-use",
+    "Directory": "skills/browser-use",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\workObsidian\\MyNote\\10_Learn\\12_AI\\Tools\\Openclaw\\skills\\browser-use",
+    "Hash": "300264984EEB81CAD297C3E2DFEBFDC8E16D13CAA15BD7EF461B1D5085462945",
+    "Description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.",
+    "Status": "copied"
+  },
+  {
+    "Name": "brutalist-skill",
+    "Directory": "skills/brutalist-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\brutalist-skill",
+    "Hash": "BD9C7FD04AE149531EB6BD0D4E8DCEEE57AA6877FCEF3D67CED90E68E755AFFA",
+    "Description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.",
+    "Status": "copied"
+  },
+  {
+    "Name": "cn-tax-employee-import",
+    "Directory": "skills/cn-tax-employee-import",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\cn-tax-employee-import",
+    "Hash": "E0A0A7F0ACB42886112196351953F8C2756EA0E605B56BE6BEFD17B6AEA462E0",
+    "Description": "Extract employee and payroll JSON blocks from Chinese individual income tax export .txt files and write them into matching Excel import workbooks. Use when asked to process files like “员工信息：[...]\\n工资信息：[...]”, populate “人员信息采集导入模板.xls”, “工资表模板.xlsx”, or update a field-dictionary style “个税数据库.xlsx”.",
+    "Status": "copied"
+  },
+  {
+    "Name": "computer-use",
+    "Directory": "skills/computer-use",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\computer-use\\skills\\computer-use",
+    "Hash": "C375B860BE0ABDBBE5CF8E2FF0D4BAA9A4691D6EDAAB1A0E50BCE1F5C0A4CF1D",
+    "Description": "Control Windows apps from Codex",
+    "Status": "copied"
+  },
+  {
+    "Name": "contract-review",
+    "Directory": "skills/contract-review",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Local\\StepFun\\StepFun.new\\resources\\skills\\contract-review",
+    "Hash": "F7639C1F845ED502A95420BC07E37BA38501E923107E3EE6803EA24E0035EEF6",
+    "Description": "合同审核技能,通过添加基于评论的问题标注而不改变原始文本。执行三层审核(基础、业务、法律),编写结构化评论(问题类型、风险原因、修订建议),风险等级通过审核人姓名编码,并生成合同摘要、综合意见和Mermaid业务流程图(含渲染图像)。输出语言必须遵循合同的语言。",
+    "Status": "copied"
+  },
+  {
+    "Name": "control-chrome",
+    "Directory": "skills/control-chrome",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\chrome\\skills\\control-chrome",
+    "Hash": "BD96D819ABF24D56862148DF287999F42335ABC965C9D7CBAF1F95BF6582704A",
+    "Description": "Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, cookies, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available.",
+    "Status": "copied"
+  },
+  {
+    "Name": "control-in-app-browser",
+    "Directory": "skills/control-in-app-browser",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\browser\\skills\\control-in-app-browser",
+    "Hash": "75BA4841A4C09EFFB8EFCDC5CCE7DC8654808D381A4881C6DF09D37C405F8C50",
+    "Description": "Control the in-app Browser. Use to open, navigate, inspect, test, click, type, screenshot, or verify local targets such as localhost, 127.0.0.1, ::1, file://, the current in-app browser tab, and websites shown side by side inside Codex.",
+    "Status": "copied"
+  },
+  {
+    "Name": "creating-financial-models",
+    "Directory": "skills/creating-financial-models",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Local\\StepFun\\StepFun.new\\resources\\skills\\creating-financial-models",
+    "Hash": "D115AB2E744E4C7F5F856E5B0B97F33C6DF95C31FE7BCD81B82B12E38407D436",
+    "Description": "该技能提供高级财务建模套件,包含DCF分析、敏感性测试、蒙特卡洛模拟和投资决策场景规划。",
+    "Status": "copied"
+  },
+  {
+    "Name": "cron",
+    "Directory": "skills/cron",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\_builtin\\cron",
+    "Hash": "4AD12CEE0A90A7806DBE81B932F7CDF38E77668960F1C3F6EA2307E99DF6B25D",
+    "Description": "Scheduled task management - create, query, delete scheduled tasks to automatically execute operations at specified times.",
+    "Status": "copied"
+  },
+  {
+    "Name": "cross-platform-paths",
+    "Directory": "skills/cross-platform-paths",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\cross-platform-paths",
+    "Hash": "DE36A3518431603A9F3963F8DB51CE489E620AB83BAAE3BF114E5DAFC7F05D1E",
+    "Description": "'Critical patterns for cross-platform path handling in this VS Code extension. Windows vs POSIX path bugs are the #1 source of issues. Use this skill when reviewing or writing path-related code.'",
+    "Status": "copied"
+  },
+  {
+    "Name": "dark-page-animations",
+    "Directory": "skills/dark-page-animations",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.config\\opencode\\skills\\dark-page-animations",
+    "Hash": "92194676E3904EFA3F8030E0243FA1F60D2E08542E9CAC8CE5CD471660A9CD62",
+    "Description": "",
+    "Status": "copied"
+  },
+  {
+    "Name": "debug-failing-test",
+    "Directory": "skills/debug-failing-test",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\debug-failing-test",
+    "Hash": "6DE4E4F69212FD4A7F79E3DC5B6D6B659D6DB7B9CA852637B45979559E1FC6BD",
+    "Description": "Debug a failing test using an iterative logging approach, then clean up and document the learning.",
+    "Status": "copied"
+  },
+  {
+    "Name": "defect-excel-analysis-pipeline",
+    "Directory": "skills/defect-excel-analysis-pipeline",
+    "SourceType": "hub-managed",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\agent-skills-hub\\skills\\defect-excel-analysis-pipeline",
+    "Hash": "50176E02935A2E6252E4056EF551DDA914A359CFFDB81A7DDF080150C256EB12",
+    "Description": "Generate defect analysis reports from raw defect export Excel files (.xlsx/.xls). Use when asked to clean/standardize a defects workbook into the same structure as 签单_合同--2026-01-07.xlsx (a 'work items' sheet with 标题/负责人/严重程度 plus a Sheet1 table), then run scripts to output an analysis workbook like 签单_合同--2026-01-07_缺陷分析.xlsx (按模块统计, 按严重级别统计, 人员x严重级别). Supports mapping accounting modules via 记账模块分工.xls and re-evaluating severities with a large model (OpenAI API) with per-row 调整理由.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-airbnb",
+    "Directory": "skills/design-md-airbnb",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-airbnb",
+    "Hash": "10F86B2A0CB72D147A396F1232168C5FA09B5E060717889F348DF8B841B96FE0",
+    "Description": "Apply the airbnb-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by airbnb or wants a visual direction matching this design language. Traits: Travel marketplace. Warm coral accent, photography-driven, rounded UI.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-airtable",
+    "Directory": "skills/design-md-airtable",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-airtable",
+    "Hash": "9B544FC846B5CD3009A22BBF66041181968E453220BD07D8F6DAA20A77BA363C",
+    "Description": "Apply the airtable-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by airtable or wants a visual direction matching this design language. Traits: Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-apple",
+    "Directory": "skills/design-md-apple",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-apple",
+    "Hash": "BA0AB3F712D5AD0B2012FEC3E50BD838400AA7FA54E7F040520BF7B9792CD903",
+    "Description": "Apply the apple-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by apple or wants a visual direction matching this design language. Traits: Consumer electronics. Premium white space, SF Pro, cinematic imagery.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-bmw",
+    "Directory": "skills/design-md-bmw",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-bmw",
+    "Hash": "DB7A642F551427E43F69E2C669DA3C0990BD03F07B0BE66506AA002E29BC21DD",
+    "Description": "Apply the bmw-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by bmw or wants a visual direction matching this design language. Traits: Luxury automotive. Dark premium surfaces, precise German engineering aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-cal",
+    "Directory": "skills/design-md-cal",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-cal",
+    "Hash": "FE641FBD7DF3D6B55E7AF4619F1C32AD65CECF4239433D1D9106A70DFCAAA630",
+    "Description": "Apply the cal-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by cal or wants a visual direction matching this design language. Traits: Open-source scheduling. Clean neutral UI, developer-oriented simplicity.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-claude",
+    "Directory": "skills/design-md-claude",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-claude",
+    "Hash": "0B7436D373BDE3A33098431A2E0771A53F9E20280346B9E7DE61D1A7CF07641F",
+    "Description": "Apply the claude-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by claude or wants a visual direction matching this design language. Traits: Anthropic's AI assistant. Warm terracotta accent, clean editorial layout.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-clay",
+    "Directory": "skills/design-md-clay",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-clay",
+    "Hash": "6E216E5504AF55640C0C001C8E2D664B0DB36703B47A691EB1CBDE5E516577A9",
+    "Description": "Apply the clay-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by clay or wants a visual direction matching this design language. Traits: Creative agency. Organic shapes, soft gradients, art-directed layout.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-clickhouse",
+    "Directory": "skills/design-md-clickhouse",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-clickhouse",
+    "Hash": "1CD223FBDC9E585CECB4B5EE11598E42B365AB6D3517D825BA2CE0D54FA77535",
+    "Description": "Apply the clickhouse-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by clickhouse or wants a visual direction matching this design language. Traits: Fast analytics database. Yellow-accented, technical documentation style.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-cohere",
+    "Directory": "skills/design-md-cohere",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-cohere",
+    "Hash": "3F123C477A36C946B4F6051544AE26DCBA375D3CF183DF237CB8995F6D2D1F50",
+    "Description": "Apply the cohere-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by cohere or wants a visual direction matching this design language. Traits: Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-coinbase",
+    "Directory": "skills/design-md-coinbase",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-coinbase",
+    "Hash": "97844AA760EF4489CC544CFEB1C4045591B1A64A6C66AC695FF2F05AFAECB13F",
+    "Description": "Apply the coinbase-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by coinbase or wants a visual direction matching this design language. Traits: Crypto exchange. Clean blue identity, trust-focused, institutional feel.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-composio",
+    "Directory": "skills/design-md-composio",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-composio",
+    "Hash": "662A7F6210873F86CAD977DF1D2232285AE054A7B74195936EC603151F93094E",
+    "Description": "Apply the composio-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by composio or wants a visual direction matching this design language. Traits: Tool integration platform. Modern dark with colorful integration icons.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-cursor",
+    "Directory": "skills/design-md-cursor",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-cursor",
+    "Hash": "4D5A17B1E5B60AF44551EF4A8D3CA31E59F17BF5AF2C88BB5C04E546EE95CF0B",
+    "Description": "Apply the cursor-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by cursor or wants a visual direction matching this design language. Traits: AI-first code editor. Sleek dark interface, gradient accents.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-elevenlabs",
+    "Directory": "skills/design-md-elevenlabs",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-elevenlabs",
+    "Hash": "37987C9EC884F4AF96A9918C6321735BE51B8F996F322EB2DAA0FD00D35B42B4",
+    "Description": "Apply the elevenlabs-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by elevenlabs or wants a visual direction matching this design language. Traits: AI voice platform. Dark cinematic UI, audio-waveform aesthetics.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-expo",
+    "Directory": "skills/design-md-expo",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-expo",
+    "Hash": "B41A772C03854E8E42B1EA2291D51E48C19B665C3361A7D4D90B975AAD20D46F",
+    "Description": "Apply the expo-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by expo or wants a visual direction matching this design language. Traits: React Native platform. Dark theme, tight letter-spacing, code-centric.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-ferrari",
+    "Directory": "skills/design-md-ferrari",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-ferrari",
+    "Hash": "09FB17A02CFC86AAB3958353B5978F422B60537C194E9B6566417970644062C3",
+    "Description": "Apply the ferrari-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by ferrari or wants a visual direction matching this design language. Traits: Luxury automotive. Chiaroscuro editorial, Ferrari Red accents, cinematic black.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-figma",
+    "Directory": "skills/design-md-figma",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-figma",
+    "Hash": "F1DD1BCF00A04A777B30796EF974CD6D2F940761605F17CAFEB28814DA19F9BE",
+    "Description": "Apply the figma-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by figma or wants a visual direction matching this design language. Traits: Collaborative design tool. Vibrant multi-color, playful yet professional.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-framer",
+    "Directory": "skills/design-md-framer",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-framer",
+    "Hash": "5DB35EA37889EA1C6CEFA1CD103B0D873FF78D48D3E80E2DC186C3C4CED67998",
+    "Description": "Apply the framer-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by framer or wants a visual direction matching this design language. Traits: Website builder. Bold black and blue, motion-first, design-forward.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-hashicorp",
+    "Directory": "skills/design-md-hashicorp",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-hashicorp",
+    "Hash": "F50B6382A90089DAF1E35AA6F2E6F07BEDA67AFF3C4DC9FF1AC6D3B820029260",
+    "Description": "Apply the hashicorp-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by hashicorp or wants a visual direction matching this design language. Traits: Infrastructure automation. Enterprise-clean, black and white.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-ibm",
+    "Directory": "skills/design-md-ibm",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-ibm",
+    "Hash": "28E370EF3969AD9DF9B63E67342CCDBA6E506FC791AD967EDA871E194440A359",
+    "Description": "Apply the ibm-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by ibm or wants a visual direction matching this design language. Traits: Enterprise technology. Carbon design system, structured blue palette.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-intercom",
+    "Directory": "skills/design-md-intercom",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-intercom",
+    "Hash": "308671CC08D0DFCEE301902CA2BD414889627F8E6638431F223445A3C409F927",
+    "Description": "Apply the intercom-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by intercom or wants a visual direction matching this design language. Traits: Customer messaging. Friendly blue palette, conversational UI patterns.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-kraken",
+    "Directory": "skills/design-md-kraken",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-kraken",
+    "Hash": "50BE073E472CAEE2F967B9857A8EA62D6DB87C0053B866EDE31E13E969A32AD5",
+    "Description": "Apply the kraken-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by kraken or wants a visual direction matching this design language. Traits: Crypto trading. Purple-accented dark UI, data-dense dashboards.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-lamborghini",
+    "Directory": "skills/design-md-lamborghini",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-lamborghini",
+    "Hash": "F1FE1B9D451BB4B8B4846B501F3C514CF0D8F0A00214DEC097B80F0D0BDF63FF",
+    "Description": "Apply the lamborghini-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by lamborghini or wants a visual direction matching this design language. Traits: Supercar brand. True black surfaces, gold accents, dramatic uppercase typography.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-linear-app",
+    "Directory": "skills/design-md-linear-app",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-linear-app",
+    "Hash": "F004EB9E96CFCDB70B101462C140C1259EF61E7B9A8134825C31F3E3B224647C",
+    "Description": "Apply the linear.app-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by linear.app or wants a visual direction matching this design language. Traits: Project management. Ultra-minimal, precise, purple accent.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-lovable",
+    "Directory": "skills/design-md-lovable",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-lovable",
+    "Hash": "C019B505AB30865255E9BDF7E0A761518E7F2CAA958B0EF015506855F7962BE7",
+    "Description": "Apply the lovable-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by lovable or wants a visual direction matching this design language. Traits: AI full-stack builder. Playful gradients, friendly dev aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-minimax",
+    "Directory": "skills/design-md-minimax",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-minimax",
+    "Hash": "E44D173846AD946A16C659552CEAE444EFAC300FD1ABC4ECCE4C00549D0B0705",
+    "Description": "Apply the minimax-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by minimax or wants a visual direction matching this design language. Traits: AI model provider. Bold dark interface with neon accents.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-mintlify",
+    "Directory": "skills/design-md-mintlify",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-mintlify",
+    "Hash": "B17D6A3D5C9F38133B0DCD28225F6064A0DCB1EF9F1B94B5666F89E60310D4C7",
+    "Description": "Apply the mintlify-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by mintlify or wants a visual direction matching this design language. Traits: Documentation platform. Clean, green-accented, reading-optimized.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-miro",
+    "Directory": "skills/design-md-miro",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-miro",
+    "Hash": "1050F7F9B095717153830DCA3ED376461CCAAA0EFDD51245E67D2B317CEE1A0B",
+    "Description": "Apply the miro-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by miro or wants a visual direction matching this design language. Traits: Visual collaboration. Bright yellow accent, infinite canvas aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-mistral-ai",
+    "Directory": "skills/design-md-mistral-ai",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-mistral-ai",
+    "Hash": "7E6875074E5003AEF93925DAF1A9C83B5DE62C39EF633F8306C63C4EA96C4F4B",
+    "Description": "Apply the mistral.ai-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by mistral.ai or wants a visual direction matching this design language. Traits: Open-weight LLM provider. French-engineered minimalism, purple-toned.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-mongodb",
+    "Directory": "skills/design-md-mongodb",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-mongodb",
+    "Hash": "106A3E7D74E8A9A7072E1711761239769EBF4AB7717434187E4AC9399A24AF90",
+    "Description": "Apply the mongodb-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by mongodb or wants a visual direction matching this design language. Traits: Document database. Green leaf branding, developer documentation focus.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-notion",
+    "Directory": "skills/design-md-notion",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-notion",
+    "Hash": "88809016B645C97AF2BD3561EE5AFA3DDE41780C7012D89D97E2333E4E4CDE53",
+    "Description": "Apply the notion-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by notion or wants a visual direction matching this design language. Traits: All-in-one workspace. Warm minimalism, serif headings, soft surfaces.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-nvidia",
+    "Directory": "skills/design-md-nvidia",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-nvidia",
+    "Hash": "05164A15E62EDABB3AF6F7BA055F05C1E5CAABEB2A393A4EA9010E2B03DBEB3F",
+    "Description": "Apply the nvidia-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by nvidia or wants a visual direction matching this design language. Traits: GPU computing. Green-black energy, technical power aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-ollama",
+    "Directory": "skills/design-md-ollama",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-ollama",
+    "Hash": "F1E5F1BA91466EA53973C68F845725B8DEF4CAC58369D9BD71CF415A3672D1F1",
+    "Description": "Apply the ollama-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by ollama or wants a visual direction matching this design language. Traits: Run LLMs locally. Terminal-first, monochrome simplicity.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-opencode-ai",
+    "Directory": "skills/design-md-opencode-ai",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-opencode-ai",
+    "Hash": "7EE4AEC89C69A1EC2C8E2D360AA91DD23DF3CE389A824556B2BD3063F2FFEE07",
+    "Description": "Apply the opencode.ai-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by opencode.ai or wants a visual direction matching this design language. Traits: AI coding platform. Developer-centric dark theme.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-pinterest",
+    "Directory": "skills/design-md-pinterest",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-pinterest",
+    "Hash": "32AB189A447D83A2FCE7E2B8FDEDAE6C2EB52822CC87109766BFCCFA94CA74CA",
+    "Description": "Apply the pinterest-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by pinterest or wants a visual direction matching this design language. Traits: Visual discovery. Red accent, masonry grid, image-first.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-posthog",
+    "Directory": "skills/design-md-posthog",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-posthog",
+    "Hash": "50324F472E767D93360E655C863EC71A22AE4080D091AF844553B8D28BA6E6D1",
+    "Description": "Apply the posthog-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by posthog or wants a visual direction matching this design language. Traits: Product analytics. Playful hedgehog branding, developer-friendly dark UI.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-raycast",
+    "Directory": "skills/design-md-raycast",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-raycast",
+    "Hash": "AC3FBDE45662D2F9A886BF6E82919530ABA8FC85E83D2BAAAE5C1EBC3FC0A86E",
+    "Description": "Apply the raycast-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by raycast or wants a visual direction matching this design language. Traits: Productivity launcher. Sleek dark chrome, vibrant gradient accents.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-renault",
+    "Directory": "skills/design-md-renault",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-renault",
+    "Hash": "0814D07BF9D3BBEF5C94508B2A59D8F9F67B0E619E4F4EB435F53C8DE876F115",
+    "Description": "Apply the renault-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by renault or wants a visual direction matching this design language. Traits: French automotive. Vibrant aurora gradients, NouvelR typography, bold energy.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-replicate",
+    "Directory": "skills/design-md-replicate",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-replicate",
+    "Hash": "2F65F175238743C73872954C3D6392DCBACAD2620E22CA7D23E8ABB77FF19C44",
+    "Description": "Apply the replicate-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by replicate or wants a visual direction matching this design language. Traits: Run ML models via API. Clean white canvas, code-forward.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-resend",
+    "Directory": "skills/design-md-resend",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-resend",
+    "Hash": "CEA3384228C9F3407424CA8D501A67CD8F2F47BFB4C55E943932D411B1ECD564",
+    "Description": "Apply the resend-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by resend or wants a visual direction matching this design language. Traits: Email API. Minimal dark theme, monospace accents.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-revolut",
+    "Directory": "skills/design-md-revolut",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-revolut",
+    "Hash": "B120BDF344A8208D60CABE6D9DA6486F0A136DC331F3294A500D85072FAAF30A",
+    "Description": "Apply the revolut-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by revolut or wants a visual direction matching this design language. Traits: Digital banking. Sleek dark interface, gradient cards, fintech precision.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-runwayml",
+    "Directory": "skills/design-md-runwayml",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-runwayml",
+    "Hash": "0057F1ED3C2F2715AB268EC1FE415458BBE89BC91A290F03686D836061ECF60E",
+    "Description": "Apply the runwayml-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by runwayml or wants a visual direction matching this design language. Traits: AI video generation. Cinematic dark UI, media-rich layout.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-sanity",
+    "Directory": "skills/design-md-sanity",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-sanity",
+    "Hash": "1D3E5F6C57DD052BCC97D47550F27A321ED59A8FC781627565D17FC156A890BA",
+    "Description": "Apply the sanity-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by sanity or wants a visual direction matching this design language. Traits: Headless CMS. Red accent, content-first editorial layout.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-sentry",
+    "Directory": "skills/design-md-sentry",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-sentry",
+    "Hash": "D93D4AE47EF89EC43210CE7A8BB4C9EB77B14F6D96D9FBED7BEA9A2DF85ED7D6",
+    "Description": "Apply the sentry-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by sentry or wants a visual direction matching this design language. Traits: Error monitoring. Dark dashboard, data-dense, pink-purple accent.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-spacex",
+    "Directory": "skills/design-md-spacex",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-spacex",
+    "Hash": "43B6BE4EF3912932F13F53046AEC560F027B6A1CC745764FECA479A4654A3A75",
+    "Description": "Apply the spacex-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by spacex or wants a visual direction matching this design language. Traits: Space technology. Stark black and white, full-bleed imagery, futuristic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-spotify",
+    "Directory": "skills/design-md-spotify",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-spotify",
+    "Hash": "702F07829B9396C3AE11342F9DFB1F30DFAB22E6EE7FDC62704E0AC8FFCAA0F2",
+    "Description": "Apply the spotify-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by spotify or wants a visual direction matching this design language. Traits: Music streaming. Vibrant green on dark, bold type, album-art-driven.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-stripe",
+    "Directory": "skills/design-md-stripe",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-stripe",
+    "Hash": "BFA8B48CBF8C87D79CE26E9425137AD001B3F98ABF93DE5D2F6F931887D0949F",
+    "Description": "Apply the stripe-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by stripe or wants a visual direction matching this design language. Traits: Payment infrastructure. Signature purple gradients, weight-300 elegance.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-supabase",
+    "Directory": "skills/design-md-supabase",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-supabase",
+    "Hash": "7F064FD35A7A97D95A63CAAF35A09398A171ECE7E36E6902582EA8E24EED9A24",
+    "Description": "Apply the supabase-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by supabase or wants a visual direction matching this design language. Traits: Open-source Firebase alternative. Dark emerald theme, code-first.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-superhuman",
+    "Directory": "skills/design-md-superhuman",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-superhuman",
+    "Hash": "E28C47D8F6868843C7C97D2DB3B4843A4540EBF5E86DA81039AA8AAA7F69CC83",
+    "Description": "Apply the superhuman-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by superhuman or wants a visual direction matching this design language. Traits: Fast email client. Premium dark UI, keyboard-first, purple glow.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-tesla",
+    "Directory": "skills/design-md-tesla",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-tesla",
+    "Hash": "21D1C01A476873D7F531DD0F12F4DDF11EAA5A188E469F77313EFF19904BBDAE",
+    "Description": "Apply the tesla-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by tesla or wants a visual direction matching this design language. Traits: Electric automotive. Radical subtraction, full-viewport photography, near-zero UI.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-together-ai",
+    "Directory": "skills/design-md-together-ai",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-together-ai",
+    "Hash": "D539EB32B9701EA3A1431751FAEA1451EFEA008BD7B3C41171E8FFE9839940B7",
+    "Description": "Apply the together.ai-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by together.ai or wants a visual direction matching this design language. Traits: Open-source AI infrastructure. Technical, blueprint-style design.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-uber",
+    "Directory": "skills/design-md-uber",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-uber",
+    "Hash": "110ED6DD9D37AF3379115427139BEBC60260322A201D13727920668238B7C466",
+    "Description": "Apply the uber-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by uber or wants a visual direction matching this design language. Traits: Mobility platform. Bold black and white, tight type, urban energy.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-vercel",
+    "Directory": "skills/design-md-vercel",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-vercel",
+    "Hash": "F0808CD066146EBFBA9CFF4439D35320311AD5E717B104B84F3722A00EF3DAEC",
+    "Description": "Apply the vercel-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by vercel or wants a visual direction matching this design language. Traits: Frontend deployment. Black and white precision, Geist font.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-voltagent",
+    "Directory": "skills/design-md-voltagent",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-voltagent",
+    "Hash": "A1F0B3D79F65A3CB2CB3E492B7D3ADC76E89541253511F49B2E96EF9D3F022C4",
+    "Description": "Apply the voltagent-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by voltagent or wants a visual direction matching this design language. Traits: AI agent framework. Void-black canvas, emerald accent, terminal-native.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-warp",
+    "Directory": "skills/design-md-warp",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-warp",
+    "Hash": "5D4A60A070DC1A346909BA4B895FF665A7729DDB4DD55D580A8588B7DA8A8890",
+    "Description": "Apply the warp-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by warp or wants a visual direction matching this design language. Traits: Modern terminal. Dark IDE-like interface, block-based command UI.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-webflow",
+    "Directory": "skills/design-md-webflow",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-webflow",
+    "Hash": "164AA7624C11540D77598519408E03E34FED5B688693367F6099D972C47F672B",
+    "Description": "Apply the webflow-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by webflow or wants a visual direction matching this design language. Traits: Visual web builder. Blue-accented, polished marketing site aesthetic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-wise",
+    "Directory": "skills/design-md-wise",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-wise",
+    "Hash": "82D7F2508CDB873A5BF34259E82041EEE6CDB1D9AF63D5EC01916A1F82CA2912",
+    "Description": "Apply the wise-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by wise or wants a visual direction matching this design language. Traits: Money transfer. Bright green accent, friendly and clear.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-x-ai",
+    "Directory": "skills/design-md-x-ai",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-x-ai",
+    "Hash": "7E2A6E66FA39C8362403384C8190CCD22DE5C2445E8FC20B6241DFBB19739BFE",
+    "Description": "Apply the x.ai-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by x.ai or wants a visual direction matching this design language. Traits: Elon Musk's AI lab. Stark monochrome, futuristic minimalism.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-md-zapier",
+    "Directory": "skills/design-md-zapier",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\design-md-zapier",
+    "Hash": "2D71EB377110A45F18E9F2BEF4453F41BD68533CFA66261D18F75C4943F8EAAC",
+    "Description": "Apply the zapier-inspired DESIGN.md design system to frontend work. Use when the user asks for a UI inspired by zapier or wants a visual direction matching this design language. Traits: Automation platform. Warm orange, friendly illustration-driven.",
+    "Status": "copied"
+  },
+  {
+    "Name": "design-taste-frontend",
+    "Directory": "skills/design-taste-frontend",
+    "SourceType": "project-tool-entry",
+    "SourceTool": "agents",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\.agents\\skills\\design-taste-frontend",
+    "Hash": "2E064E92ACA020B2E0BAD69326FE7EA55D59005ED53D1A8CBCE1BD135D44B8B3",
+    "Description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+    "Status": "copied"
+  },
+  {
+    "Name": "desktop-skill-manager-style",
+    "Directory": "skills/desktop-skill-manager-style",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.skills-manager\\skills\\desktop-skill-manager-style",
+    "Hash": "7A48F408BA688E49F81501EA9EFC8B28F67DFC79CBEE32E70F9D38464DBC61E4",
+    "Description": "",
+    "Status": "copied"
+  },
+  {
+    "Name": "dingtalk-overtime-application",
+    "Directory": "skills/dingtalk-overtime-application",
+    "SourceType": "hub-managed",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\agent-skills-hub\\skills\\dingtalk-overtime-application",
+    "Hash": "E2968D44D37FA63CACDC024E20EC3215EC52AD9E8DE37F95269DB5E36B409A6E",
+    "Description": "Generate monthly overtime application text (Chinese) from a DingTalk attendance screenshot (.png) plus a weekly report Excel (.xlsx). Use when asked to output formatted lines like “1月4日 18:10分至19:50， …；” with rules such as weekday overtime starting at 18:10, Saturday counting as full-day overtime, and ignoring overtime durations under 60 minutes.",
+    "Status": "copied"
+  },
+  {
+    "Name": "dispatching-parallel-agents",
+    "Directory": "skills/dispatching-parallel-agents",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\dispatching-parallel-agents",
+    "Hash": "76806091C7F923BA2596546B19CCCD98A08E57A68745DF77C3A7B998FE838E2B",
+    "Description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+    "Status": "copied"
+  },
+  {
+    "Name": "documents",
+    "Directory": "skills/documents",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\documents\\skills\\documents",
+    "Hash": "606F3EB68B233094D81E8CDC83A8BF1E8BC9DD161B1085D3B314768AC30AE13A",
+    "Description": "Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document.",
+    "Status": "copied"
+  },
+  {
+    "Name": "docx",
+    "Directory": "skills/docx",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.stepfun\\skill\\docx",
+    "Hash": "B7C0D94ED3E3C50FC2B78A05C1D0344D4C1FF9EB5135B6D40BA304D7F4F47ABB",
+    "Description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When 小跃 needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+    "Status": "copied"
+  },
+  {
+    "Name": "excel-testcase-reviewer",
+    "Directory": "skills/excel-testcase-reviewer",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\项目\\数字财税平台\\003_记账\\99-工具脚本\\记账板块测试用例SKILLS\\skills\\excel-testcase-reviewer",
+    "Hash": "16EA0C6BAF9C06D9DBD03FFF2B005D8345378D23333E33D39342C65F40A1AFAE",
+    "Description": "Generate, audit, and revise Excel (.xlsx) test cases from full requirement docs + requirement snippets using strict finance-QA rules (no scope expansion), and optionally write results back to the workbook.",
+    "Status": "copied"
+  },
+  {
+    "Name": "executing-plans",
+    "Directory": "skills/executing-plans",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\executing-plans",
+    "Hash": "A711F83FB762E2EA0FA151F598893DA9911A408895C91CC7A7E0770DD59A27B3",
+    "Description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+    "Status": "copied"
+  },
+  {
+    "Name": "fastapi",
+    "Directory": "skills/fastapi",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\Python\\Python311\\site-packages\\fastapi\\.agents\\skills\\fastapi",
+    "Hash": "3C8B2BCED3222051CAD6032D06CAE4AC40E8A1376255E308D2C6F405CF2EA355",
+    "Description": "FastAPI best practices and conventions. Use when working with FastAPI APIs and Pydantic models for them. Keeps FastAPI code clean and up to date with the latest features and patterns, updated with new versions. Write new code or refactor and update old code.",
+    "Status": "copied"
+  },
+  {
+    "Name": "feishu-docx-extractor",
+    "Directory": "skills/feishu-docx-extractor",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\feishu-docx-extractor",
+    "Hash": "DE07DDD0A691A5892932D05A1C2068A134505203E50839CD5624FB6FA6040916",
+    "Description": "Extract authorized Feishu/Lark wiki or DocX documents whose browser page cannot be copied, including text blocks, tables, and embedded images. Use when the user provides a feishu.cn/larksuite.com wiki/docx URL and asks to copy, export, scrape, pull down, preserve, or convert its content to local Markdown/TXT/JSON; requires legitimate document access and, when necessary, an interactive login via agent-browser.",
+    "Status": "copied"
+  },
+  {
+    "Name": "feishu-native-kb-export",
+    "Directory": "skills/feishu-native-kb-export",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\feishu-native-kb-export",
+    "Hash": "A48682A616FA79847ED7D48FF68567348346C230855255D38ACA8CCF2B5DB457",
+    "Description": "Export authorized Feishu/Lark wiki knowledge-base branches to local folders using the browser's native download/export flows while preserving the wiki tree structure. Use when the user wants a whole Feishu wiki or subtree saved locally, especially when Doc pages should be exported as Word, Sheets as local Excel .xlsx, Bitable as Excel/CSV download, and file nodes as their original attachments.",
+    "Status": "copied"
+  },
+  {
+    "Name": "finance-testcase-reviewer",
+    "Directory": "skills/finance-testcase-reviewer",
+    "SourceType": "hub-managed",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\agent-skills-hub\\skills\\finance-testcase-reviewer",
+    "Hash": "480F2BFE2F8B7ED7918F4B726924DE1FCD7F7C122E5F98767E348E3354B90235",
+    "Description": "以金融行业10年以上测试架构师/高级QA视角审查测试用例：严格按需求文本与用例编写规范检查越界、分拆、覆盖、边界、权限、状态流转与异常类型；默认输出问题清单并补充缺失用例；用于测试用例审查/评审/Review等场景。",
+    "Status": "copied"
+  },
+  {
+    "Name": "finance-testcase-writer",
+    "Directory": "skills/finance-testcase-writer",
+    "SourceType": "hub-managed",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\agent-skills-hub\\skills\\finance-testcase-writer",
+    "Hash": "2244D183F71384C7BEE734E613434D1E39492B646982597E8F3722B026AA55F0",
+    "Description": "以金融行业10年以上测试架构师/高级QA视角，严格按需求文本将需求拆解为结构化、可执行、可验证、可回归的测试用例（黑盒+白盒、破坏性+体验验证），并按指定表格模板输出；用于编写/生成测试用例、需求拆解成用例、仅针对需求片段出用例等场景。",
+    "Status": "copied"
+  },
+  {
+    "Name": "find-skill",
+    "Directory": "skills/find-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Local\\StepFun\\StepFun.new\\resources\\skills\\find-skill",
+    "Hash": "FB19BA44AB826E56037E8C25F2F9A8A2FD9A700DE1FC40D2A0A1E2100995BC9B",
+    "Description": "帮助用户发现和安装代理技能,当用户提出\"如何做X\"、\"查找X的技能\"、\"有没有可以...的技能\"等问题,或表达扩展功能的兴趣时使用。当用户寻找可能作为可安装技能存在的功能时,应使用此技能。",
+    "Status": "copied"
+  },
+  {
+    "Name": "find-skills",
+    "Directory": "skills/find-skills",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\workObsidian\\MyNote\\10_Learn\\12_AI\\Tools\\Openclaw\\skills\\find-skills",
+    "Hash": "54B44DC9539DF865FBB060F62FB062E8232E765852A0CF14C38301FE0C1EB264",
+    "Description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+    "Status": "copied"
+  },
+  {
+    "Name": "finishing-a-development-branch",
+    "Directory": "skills/finishing-a-development-branch",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\finishing-a-development-branch",
+    "Hash": "DD2F82C6DC8582B621F9EB57FCB65F557F88EADF872727AC81D0840AE12C504E",
+    "Description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+    "Status": "copied"
+  },
+  {
+    "Name": "frontend-design",
+    "Directory": "skills/frontend-design",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cc-switch\\skills\\frontend-design",
+    "Hash": "336D388EA4181C22FC5662D2B0A0CADC6C2A613CA0BE52030536D2693B458FF7",
+    "Description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "Status": "copied"
+  },
+  {
+    "Name": "generate-snapshot",
+    "Directory": "skills/generate-snapshot",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\generate-snapshot",
+    "Hash": "172930C47C653AFBE5BDF8128A027C15B9F0E7D3AE275A0D0632E45945AD7918",
+    "Description": "Generate a codebase health snapshot for technical debt tracking and planning. Analyzes git history, code complexity, debt markers, and dependencies to identify hotspots and refactoring priorities.",
+    "Status": "copied"
+  },
+  {
+    "Name": "gpt-tasteskill",
+    "Directory": "skills/gpt-tasteskill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\gpt-tasteskill",
+    "Hash": "6A19B70E6B53761D5788F284C615BF93A07CD9F94D5F0A452520260D9D951523",
+    "Description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+    "Status": "copied"
+  },
+  {
+    "Name": "image-to-code-skill",
+    "Directory": "skills/image-to-code-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\image-to-code-skill",
+    "Hash": "2944189B448E2A77CBBF55014030B1890A9EC5891ACC9FA97FB8C215E0008407",
+    "Description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+    "Status": "copied"
+  },
+  {
+    "Name": "imagegen-frontend-mobile",
+    "Directory": "skills/imagegen-frontend-mobile",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\imagegen-frontend-mobile",
+    "Hash": "3CADF1BFBE836D377832D090E5DB8479F98903453A4D1342BE9636178755F9DD",
+    "Description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+    "Status": "copied"
+  },
+  {
+    "Name": "imagegen-frontend-web",
+    "Directory": "skills/imagegen-frontend-web",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\imagegen-frontend-web",
+    "Hash": "23E6D27AB410E97FE5E844D18DB97C8E674D317ABD8567F4C7726EE16F56DA6E",
+    "Description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.",
+    "Status": "copied"
+  },
+  {
+    "Name": "ios-dev",
+    "Directory": "skills/ios-dev",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.zcode\\cli\\plugins\\cache\\zcode-plugins-official\\ios-simulator\\0.1.0\\skills\\ios-dev",
+    "Hash": "2B71A7420DC259D106C44CB633991830ED4F4FE4398F4E60980C00EA8BBF7C9C",
+    "Description": "通过 ios-simulator MCP 工具构建、运行、检查并轻量自动化 iOS 模拟器应用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "json-canvas",
+    "Directory": "skills/json-canvas",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\json-canvas",
+    "Hash": "174481B16EAD9BFE7B417E59B14A952D72395FE04B31AA9E351D73D62F28FB90",
+    "Description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+    "Status": "copied"
+  },
+  {
+    "Name": "kami",
+    "Directory": "skills/kami",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\kami",
+    "Hash": "112252C3B5CF4AF194729DA654A46BDDF04DA91F51E0E88D65C226E84F740DB3",
+    "Description": "'Typeset professional documents: resumes, one-pagers, white papers, letters, portfolios, slide decks. Warm parchment, ink-blue accent, serif-led hierarchy. CN uses TsangerJinKai02, EN uses Charter, JA uses YuMincho (best-effort). Triggers on \"做 PDF / 排版 / 一页纸 / 白皮书 / 作品集 / 简历 / PPT / slides\", or \"build me a resume / make a one-pager / design a slide deck / turn this into a PDF / make this presentable\".'",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-approval",
+    "Directory": "skills/lark-approval",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-approval",
+    "Hash": "9E36AB914F1BBA22564562C4FBAE8094052181677DD345CD11B653A075521CB3",
+    "Description": "飞书审批：当前用户审批的查询与全部处理操作，覆盖待本人审批的任务与本人发起的实例。审批待办不是飞书任务（任务类待办走 lark-task）；不负责创建审批定义和发起新审批。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-apps",
+    "Directory": "skills/lark-apps",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-apps",
+    "Hash": "CC2B6E75A1EC1186E57C3A411CA1CC0665F18F6623206B07E93E311AB4BBA9F0",
+    "Description": "妙搭（Spark/Miaoda）应用开发与托管：应用创建、HTML静态站点发布、本地全栈开发、云端生成迭代。当用户要开发/新建一个系统·工具·平台·应用，或要本地开发 / 云端开发 / 修改 / 部署 / 发布 / 上线 / 拿可分享链接，或用 HTML 做页面·网站·部署到妙搭，或提到妙搭/Spark/Miaoda（应用运行时域名形如 *.aiforce.cloud）、应用数据库、可见范围时使用。不负责普通云盘文件上传（lark-drive）、飞书文档编辑（lark-doc）、原生幻灯片创建（lark-slides）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-attendance",
+    "Directory": "skills/lark-attendance",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-attendance",
+    "Hash": "A0EA5F3FA176496DDA31D912F7E55AD7CFED5243B30567D16E7F9DC96EEBBE8B",
+    "Description": "飞书考勤打卡：查询自己的考勤打卡记录",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-base",
+    "Directory": "skills/lark-base",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-base",
+    "Hash": "63BDC08252BED2ECEB0687FF2E32993F04F2132380087591C2048D71E66BC789",
+    "Description": "飞书多维表格（Base）操作：建表、字段、记录、视图、统计、公式/lookup、表单、仪表盘、workflow、角色权限；遇到 Base/多维表格/bitable 或 /base/ 链接时使用。文件导入转 lark-drive，认证/授权转 lark-shared。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-calendar",
+    "Directory": "skills/lark-calendar",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-calendar",
+    "Hash": "4E739CF89030AAEA3E5085F3D758971967729F9899746FF5F8F4931B36F3E049",
+    "Description": "飞书日历：管理日历日程和会议室。查看/搜索日程、创建/更新日程、管理参会人、查询忙闲和推荐时段、预定会议室。当用户需要查看日程安排、创建/修改会议、查询/预定会议室时使用。不负责：查询过去的视频会议记录（走 lark-vc）、待办任务（走 lark-task）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-contact",
+    "Directory": "skills/lark-contact",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-contact",
+    "Hash": "94C3A645131C08DD9D72247D775788D1CADAE0BAD406E329E7207D9CA0C96AB4",
+    "Description": "飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open_id,或按 open_id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名。当用户提到某人姓名要下一步发消息 / 排日程,或拿到 open_id 想查具体信息时使用。不负责部门树遍历、按部门列员工、组织架构图,这类需求走原生 OpenAPI。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-doc",
+    "Directory": "skills/lark-doc",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-doc",
+    "Hash": "6863885E1C61E995DF08A3904432E361EDD96B1EC651B50D2C5D2C3703F7265B",
+    "Description": "飞书云文档（Docx / Wiki 文档，v2 API）：读取和编辑飞书文档内容。当用户给出文档 URL 或 token，或需要查看、创建、编辑文档、插入或下载文档图片附件时使用。文档中嵌入的电子表格、多维表格、画板，先用本 skill 提取 token 再切到对应 skill。当用户给出 doubao.com 的 /docx/ 或 /wiki/ URL/token 时，也应直接使用本 skill；路由依据是 URL 路径模式和 token，而不是域名。不负责文档评论管理，也不负责表格或 Base 的数据操作。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-drive",
+    "Directory": "skills/lark-drive",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-drive",
+    "Hash": "324C3694CFF5C892902239273B5B65267DC39AB5A109F1E084A506BA33804A17",
+    "Description": "飞书云空间（云盘/云存储）：管理 Drive 文件和文件夹，包含上传/下载、创建文件夹、复制/移动/删除、查看元数据、评论/权限/订阅、标题、版本和本地文件导入。用户需要整理云盘目录、处理云空间资源 URL/token，或导入 Word/Markdown/Excel/CSV/PPTX/.base 为 docx/sheet/bitable/slides 时使用；doubao.com 云空间 URL/token 也按资源路径和 token 路由，不回退 WebFetch。不负责：文档内容编辑（走 lark-doc）、表格/Base 表内数据操作（走 lark-sheets/lark-base）、知识空间节点/成员管理（走 lark-wiki）、原生 Markdown 文件读写/patch/diff（走 lark-markdown）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-event",
+    "Directory": "skills/lark-event",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-event",
+    "Hash": "BD25CE44C5451CE9CAB0140F4D35F708B86B996858041F3407924BA4A333A8E8",
+    "Description": "Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via `lark-cli event consume <EventKey>` (covers IM messages/reactions/chat changes, VC meeting ended, Minutes generated, Whiteboard updated, etc.). Use for Lark bots, real-time message processing, long-running subscribers, streaming webhook/push handlers. Supports `--max-events` / `--timeout` bounded runs and a stderr ready-marker contract — designed for AI agents running as subprocesses.",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-im",
+    "Directory": "skills/lark-im",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-im",
+    "Hash": "8DF44114CB1A7E55B9D2577EA34CD2FC9FEFB7970FEB635064C65148AFBD50B9",
+    "Description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件（支持大文件分片下载）、管理表情回复、发送应用内/短信/电话加急。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员、搜索群、创建群聊或话题群、管理标记数据、管理 Feed 置顶（添加/移除/查询置顶会话）、管理标签数据时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-mail",
+    "Directory": "skills/lark-mail",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-mail",
+    "Hash": "3F7022E08DC5E1D1B73319471109333887A99D32C48F42BFF157371CB9335BFF",
+    "Description": "飞书邮箱：Use when user mentions 起草邮件、写邮件、草稿、发送/回复/转发邮件、查阅邮件、看邮件、搜索邮件、邮件文件夹、邮件标签、邮件联系人、监听新邮件、邮件收信规则等；use for mail/email intent only. Do not use for docs/sheets/calendar/auth setup/pure contact lookup/IM chat tasks.",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-markdown",
+    "Directory": "skills/lark-markdown",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-markdown",
+    "Hash": "C240E243D84B7869A53B4A42608A6A57097C21402EE6633EFF48493A0DFDDB94",
+    "Description": "飞书 Markdown：查看、创建、上传、编辑和比较 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取、修改、局部 patch 或比较差异时使用。不负责将 Markdown 导入为飞书在线文档，也不负责文件搜索、权限、评论、移动、删除等云空间管理操作。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-minutes",
+    "Directory": "skills/lark-minutes",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-minutes",
+    "Hash": "A0FE4404AFCCF3A75D93E0D4F23FB3B6D6F6A581E101643E7CCDCB5E7F0EA66D",
+    "Description": "飞书妙记：搜索妙记列表、查看妙记基础信息、下载妙记音视频文件、上传音视频生成妙记、更新妙记标题、替换说话人。当需要获取、操作或者生成妙记时使用。也支持将本地音视频文件转成纪要和逐字稿（优先使用本 skill，不要用 ffmpeg/whisper 本地转写）。不负责：获取会议关联妙记，或仅按自然语言标题定位纪要",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-note",
+    "Directory": "skills/lark-note",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-note",
+    "Hash": "D6B2E162ACBCF6C4D573DCEEAFA5C4041C4CF0FF0C955C8D4A3DBDAACFDF9661",
+    "Description": "飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node-id 获得 note_id 时使用。不负责会议/日程/妙记定位、文档标题搜索或 Docx 正文读取。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-okr",
+    "Directory": "skills/lark-okr",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-okr",
+    "Hash": "C32D662A754B4D48CC117DBBF05113DE4B3FADF6987B4459A4463211AF8B25B8",
+    "Description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标、关键结果、对齐关系、量化指标和进展记录。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。不负责：待办任务管理（lark-task）、日程/会议安排（lark-calendar）、绩效评估",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-openapi-explorer",
+    "Directory": "skills/lark-openapi-explorer",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-openapi-explorer",
+    "Hash": "AE89DEBC3F807F9947831B4525E1C118BC14544877C14C14AAA47298B1E863B4",
+    "Description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-shared",
+    "Directory": "skills/lark-shared",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-shared",
+    "Hash": "47EB16BEB85CEC95738AE8B9053793EF24BAA65A11A0B94E7DE451B8349ADA24",
+    "Description": "Use when first setting up lark-cli, running auth login, switching user/bot identity (--as), handling permission denied or scope errors, needing to update lark-cli, or seeing _notice in JSON output.",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-sheets",
+    "Directory": "skills/lark-sheets",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-sheets",
+    "Hash": "7B1F0DE266147E6E5AE8626DED360F67044282B475DDA76DC63D426BB9C3FB0B",
+    "Description": "飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作原子批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）等任务时使用。若用户是想按名称或关键词搜索云空间（云盘/云存储）里的表格文件，请改用 lark-drive 的 drive +search 先定位资源。当用户给出 doubao.com 的 /sheets/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。仅针对飞书在线电子表格，不适用于本地 Excel 文件。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-skill-maker",
+    "Directory": "skills/lark-skill-maker",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-skill-maker",
+    "Hash": "8591158289A3CB003C7AC18001CE6B42837C780D2567492CEA87BF98982B3678",
+    "Description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-slides",
+    "Directory": "skills/lark-slides",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-slides",
+    "Hash": "43D3AF00DD41FF10B58C0371F768CEB2C93D4034316DCAEC7BDCF7DCA6C96A36",
+    "Description": "飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。当用户给出 doubao.com 的 /slides/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：云文档内容编辑（走 lark-doc）、云文档里的独立画板对象（走 lark-whiteboard，注意 slide 内嵌的流程图/架构图仍属本 skill）、上传或下载普通文件（走 lark-drive）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-task",
+    "Directory": "skills/lark-task",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-task",
+    "Hash": "66AD1E523C25F5350540B81776775D1B00F59A17AE1D66C904E257A2433C6DD7",
+    "Description": "飞书任务：管理任务、清单和任务智能体。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员、上传任务附件、注册或注销任务智能体、更新任务智能体的主页数据、写入智能体任务记录。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务、为任务上传附件文件、注册注销任务智能体、更新智能体主页数据、写入任务记录时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-vc",
+    "Directory": "skills/lark-vc",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-vc",
+    "Hash": "8ADCF423411F1137D96897ECB100D20E2E684A17BCC2C7C9FC2514C1B2EA0D9E",
+    "Description": "飞书视频会议：搜索历史会议记录、查询会议纪要（总结/待办/章节/逐字稿）、查询参会人快照。当用户查询已结束的会议、获取会议产物（纪要/妙记）、查看参会人时使用；查询未来日程走 lark-calendar。不负责：Agent 真实入会/离会、会中实时事件（走 lark-vc-agent）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-vc-agent",
+    "Directory": "skills/lark-vc-agent",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-vc-agent",
+    "Hash": "AFF20D53FC9563355CB07BCF4FB3E379DB8751CFAF35C71212FC96C24011122F",
+    "Description": "飞书视频会议会中能力：用于让应用机器人真实加入或离开正在进行的会议，并读取当前身份可见的会中事件，如参会人加入/离开、发言、聊天、屏幕共享。适用于用户询问正在开的会议发生了什么、谁在发言、是否共享内容，或需要发现当前可读的进行中会议 ID。不负责已结束会议搜索、参会人快照、纪要、逐字稿或录制查询，这些使用 lark-vc 技能。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-whiteboard",
+    "Directory": "skills/lark-whiteboard",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-whiteboard",
+    "Hash": "2170C17F987B7E0726CDE8D2C8CAFA5B3520A002110D661FBA630D4949AC734A",
+    "Description": ">",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-wiki",
+    "Directory": "skills/lark-wiki",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-wiki",
+    "Hash": "9E3EAB7AB8C8ED3D4DF797F13DF329B05BF5CA423AC50D85AA34A291E2838854",
+    "Description": "飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管理空间成员、移动或复制节点时使用。当用户给出 doubao.com 的 /wiki/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：上传文件到知识库节点下（走 lark-drive）、编辑文档/表格/Base 内容（走 lark-doc / lark-sheets / lark-base）。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-workflow-meeting-summary",
+    "Directory": "skills/lark-workflow-meeting-summary",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-workflow-meeting-summary",
+    "Hash": "7FF210ED2A8B35781BFA0989D0CD007D7BBFF3B07163B9E0FC3343C5C2FF3A56",
+    "Description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "lark-workflow-standup-report",
+    "Directory": "skills/lark-workflow-standup-report",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\lark-workflow-standup-report",
+    "Hash": "A283DE746E65F97D7D25C3B9E351C2E5C16702BE81C0F004D5BE718C50994690",
+    "Description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
+    "Status": "copied"
+  },
+  {
+    "Name": "latex-compile",
+    "Directory": "skills/latex-compile",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\latex\\skills\\latex-compile",
+    "Hash": "BF5E3837BD494EDDA28D512F653CB5097687AA12D061EA3C16115B56F5B9D1A1",
+    "Description": "Compile a TeX project from Codex, trying bundled Tectonic for simple projects and falling back to detected TeX Live or MacTeX when needed.",
+    "Status": "copied"
+  },
+  {
+    "Name": "latex-doctor",
+    "Directory": "skills/latex-doctor",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\latex\\skills\\latex-doctor",
+    "Hash": "F9146D54A36E4FE3262E7A6368C289DA985B64D63BD36D6B662D92AF87C6E8A6",
+    "Description": "Detect bundled Tectonic plus TeX Live or MacTeX availability, report missing LaTeX tools, and run small compile smoke tests when possible.",
+    "Status": "copied"
+  },
+  {
+    "Name": "market-research-reports",
+    "Directory": "skills/market-research-reports",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Local\\StepFun\\StepFun.new\\resources\\skills\\market-research-reports",
+    "Hash": "2AA72BCACC738079928E11C978747481D076670149D1B71432CF17DF2941FAA0",
+    "Description": "生成顶级咨询公司(麦肯锡、波士顿咨询、Gartner)风格的综合市场研究报告(50页以上)。具有专业的LaTeX格式、使用scientific-schematics和generate-image进行广泛的视觉生成、与research-lookup深度集成进行数据收集,以及多框架战略分析,包括波特五力模型、PESTLE、SWOT、TAM/SAM/SOM和BCG矩阵。",
+    "Status": "copied"
+  },
+  {
+    "Name": "menu-module-sheet-grouper",
+    "Directory": "skills/menu-module-sheet-grouper",
+    "SourceType": "hub-managed",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\agent-skills-hub\\skills\\menu-module-sheet-grouper",
+    "Hash": "DABE5E06C853573E9960B94FE8ED67B830EB4CF4419BB5B622DF72BE81727E75",
+    "Description": "Extract multi-level headings from a requirement document (Markdown .md), remove heading rows containing 查询条件/弹窗字段/校验规则/列表字段/功能按钮 (and their descendants), then concatenate menu paths and output an Excel workbook (.xlsx) with merged-path sheets and per-module (一级标题) grouped sheets for task assignment.",
+    "Status": "copied"
+  },
+  {
+    "Name": "mermaid",
+    "Directory": "skills/mermaid",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\mermaid",
+    "Hash": "913966861D14652B6204C2F6AFAFDF4F11F1CF5E292539D9388741C4D5DAA804",
+    "Description": "Render Mermaid diagrams as SVG or ASCII art using beautiful-mermaid. Use when users need to create flowcharts, sequence diagrams, state diagrams, class diagrams, or ER diagrams. Supports both graphical SVG output and terminal-friendly ASCII/Unicode output.",
+    "Status": "copied"
+  },
+  {
+    "Name": "minimalist-skill",
+    "Directory": "skills/minimalist-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\minimalist-skill",
+    "Hash": "1A292D1459292649DC5B422E029093259B6127E7DF2F37AD8C22033174333A57",
+    "Description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+    "Status": "copied"
+  },
+  {
+    "Name": "moltbook",
+    "Directory": "skills/moltbook",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\moltbook",
+    "Hash": "4D09258A941533275B4193C643574896D58343F5D75FC6F00284E2ABE03ED128",
+    "Description": "The social network for AI agents. Post, comment, upvote, and create communities.",
+    "Status": "copied"
+  },
+  {
+    "Name": "obsidian-bases",
+    "Directory": "skills/obsidian-bases",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\obsidian-bases",
+    "Hash": "2B01F105ABA1B97AD4C85D3AB3107E1B740B79AC6FC9130BA950E6075F9324C4",
+    "Description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+    "Status": "copied"
+  },
+  {
+    "Name": "obsidian-markdown",
+    "Directory": "skills/obsidian-markdown",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "codex",
+    "SourcePath": "C:\\Users\\win10\\.codex\\skills\\obsidian-markdown",
+    "Hash": "50FD2C27AAFAA4F4328B3DEBD74F7D7A0D689CE9D63E8EBFD6B5AE4305CA746E",
+    "Description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+    "Status": "copied"
+  },
+  {
+    "Name": "officecli",
+    "Directory": "skills/officecli",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\officecli",
+    "Hash": "702E831E018A693A60B52A1C493A6F5D1BF9385EEF6720F3F4227F37867AC108",
+    "Description": "Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool. Use when the user wants to create, inspect, check formatting, find issues, add charts, or modify Office documents.",
+    "Status": "copied"
+  },
+  {
+    "Name": "openclaw-setup",
+    "Directory": "skills/openclaw-setup",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\openclaw-setup",
+    "Hash": "DA4352A55E89AA7ECED29478078D7B586A409A98A5D677EAF4336005E702E79E",
+    "Description": "'OpenClaw usage expert: Helps you install, deploy, configure, and use OpenClaw personal AI assistant. Can diagnose issues, create bots, execute automated tasks, etc. Use when users need to install OpenClaw, configure Gateway, set up Channels, create Agents, troubleshoot issues, or perform OpenClaw-related operations.'",
+    "Status": "copied"
+  },
+  {
+    "Name": "output-skill",
+    "Directory": "skills/output-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\output-skill",
+    "Hash": "7B2275B591AF7760B36A2DFB1DBCF3C99C5054C52298A1066C4979F39ED947D9",
+    "Description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+    "Status": "copied"
+  },
+  {
+    "Name": "pdf",
+    "Directory": "skills/pdf",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.stepfun\\skill\\pdf",
+    "Hash": "38D8559D4899602F82F3560052132AA0C40CFCA80203037729756BDB4FB8E0CB",
+    "Description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+    "Status": "copied"
+  },
+  {
+    "Name": "pptx",
+    "Directory": "skills/pptx",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.stepfun\\skill\\pptx",
+    "Hash": "0F3A3A08A47830D082383C4EC7FFD2217CDF1D02EEF290B0DC88DBB824218334",
+    "Description": "Presentation creation, editing, and analysis. When 小跃 needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+    "Status": "copied"
+  },
+  {
+    "Name": "presentations",
+    "Directory": "skills/presentations",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\presentations\\skills\\presentations",
+    "Hash": "0FEEAAAE63925B79FB993DD37D68A63E06DA0802EDD32575FF0F2E60437AF6BE",
+    "Description": "Create or edit PowerPoint or Google Slides decks",
+    "Status": "copied"
+  },
+  {
+    "Name": "python-manager-discovery",
+    "Directory": "skills/python-manager-discovery",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\python-manager-discovery",
+    "Hash": "EB849923A522B22175D8D138A8B3A077BD2E7874AC41C9A33C6E8B9F80CB6BEF",
+    "Description": "Environment manager-specific discovery patterns and known issues. Use when working on or reviewing environment discovery code for conda, poetry, pipenv, pyenv, or venv.",
+    "Status": "copied"
+  },
+  {
+    "Name": "receiving-code-review",
+    "Directory": "skills/receiving-code-review",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\receiving-code-review",
+    "Hash": "C9382E92B8F32363566068ECFED19D3B2651EAF40D3942B24840F839DEDFC406",
+    "Description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+    "Status": "copied"
+  },
+  {
+    "Name": "redesign-skill",
+    "Directory": "skills/redesign-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\redesign-skill",
+    "Hash": "D5A62EFAF36FA52EA1966E06CE74452B3466A4F179AF34FBCE65F2C8E5461349",
+    "Description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+    "Status": "copied"
+  },
+  {
+    "Name": "regression-test-planner",
+    "Directory": "skills/regression-test-planner",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cc-switch\\skills\\regression-test-planner",
+    "Hash": "BAF577F8E824E6ADDE4A90F8DAED12BA9960B7F85886B6B5FA0FD65A998F908D",
+    "Description": "Create comprehensive production regression test plans with flow diagrams, business branch diagrams, and staffing tables. Use when: (1) designing regression tests for large systems, (2) creating multi-path flowcharts with color-coded swimlanes, (3) generating Draw.io diagrams following progressive disclosure principles, (4) building xlsx assignment tables with color differentiation by module/path, (5) defining end-to-end test scenarios across dependent modules.",
+    "Status": "copied"
+  },
+  {
+    "Name": "release-skills",
+    "Directory": "skills/release-skills",
+    "SourceType": "project-tool-entry",
+    "SourceTool": "claude",
+    "SourcePath": "C:\\tmp\\baoyu-skills\\.claude\\skills\\release-skills",
+    "Hash": "12F425F33513A8C71C0F642ACED8ADD545F12FD73E8B8B5DCC0277067D236DAA",
+    "Description": "Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says \"release\", \"发布\", \"new version\", \"bump version\", \"push\", \"推送\".",
+    "Status": "copied"
+  },
+  {
+    "Name": "remotion-best-practices",
+    "Directory": "skills/remotion-best-practices",
+    "SourceType": "user-or-tool-global",
+    "SourceTool": "agents",
+    "SourcePath": "C:\\Users\\win10\\.agents\\skills\\remotion-best-practices",
+    "Hash": "F9F65AA872C312718170FB986012ED24F6BA55A69EEB3A5946636E413CC96EA1",
+    "Description": "Best practices for Remotion - Video creation in React",
+    "Status": "copied"
+  },
+  {
+    "Name": "requesting-code-review",
+    "Directory": "skills/requesting-code-review",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\requesting-code-review",
+    "Hash": "A5FF68586CCF62D1803CEDEB71D60FD96EC05591D29C8D123196117EEFD34CD0",
+    "Description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+    "Status": "copied"
+  },
+  {
+    "Name": "restore-legacy-sessions",
+    "Directory": "skills/restore-legacy-sessions",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.zcode\\cli\\plugins\\cache\\zcode-plugins-official\\restore-legacy-sessions\\0.1.0\\skills\\restore-legacy-sessions",
+    "Hash": "3E1425F8663AF6BF20AEDABEDCEB956CC8D019A41511DDAB990A67B227157138",
+    "Description": "Use when ZCode needs to inspect, plan, or execute restoration of old ACP-era ZCode sessions from ~/.zcode/v2/sessions into the new ZCode task/session stores. Trigger when the user wants to choose a previous agent, select a workspace to restore, pick a specific historical conversation, dry-run legacy session migration, or reason about tasks-index.sqlite and ~/.zcode/cli/db/db.sqlite consistency.",
+    "Status": "copied"
+  },
+  {
+    "Name": "run-e2e-tests",
+    "Directory": "skills/run-e2e-tests",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\run-e2e-tests",
+    "Hash": "2093619ABA2B4D006093A45E899A107A9211D61F404A65211E7F179E5375462B",
+    "Description": "Run E2E tests to verify complete user workflows like environment discovery, creation, and selection. Use this before releases or after major changes.",
+    "Status": "copied"
+  },
+  {
+    "Name": "run-integration-tests",
+    "Directory": "skills/run-integration-tests",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\run-integration-tests",
+    "Hash": "0F6C9B110F8692F6BC9512083A9124074D17085426066BFF785858BE4660D731",
+    "Description": "Run integration tests to verify that extension components work together correctly. Use this after modifying component interactions or event handling.",
+    "Status": "copied"
+  },
+  {
+    "Name": "run-pre-commit-checks",
+    "Directory": "skills/run-pre-commit-checks",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\run-pre-commit-checks",
+    "Hash": "72291102D80AB415E90C963B2DCE1201708CDD77F8A950DD409F0998DFC9B298",
+    "Description": "Run the mandatory pre-commit checks before committing code. Includes lint, type checking, and unit tests. MUST be run before every commit.",
+    "Status": "copied"
+  },
+  {
+    "Name": "run-smoke-tests",
+    "Directory": "skills/run-smoke-tests",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\run-smoke-tests",
+    "Hash": "5D5485BD07B87B40BA8CC800BDA75A08CC25887A5D62CB0DD0442FBF89D209FB",
+    "Description": "Run smoke tests to verify extension functionality in a real VS Code environment. Use this when checking if basic features work after changes.",
+    "Status": "copied"
+  },
+  {
+    "Name": "security-research",
+    "Directory": "skills/security-research",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\opencode\\skills\\security-research",
+    "Hash": "3110B1CE31999BA534211FE98E387437DBEFF0AAC7A79400F5713A5E5B3B1A7A",
+    "Description": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release security check, threat model validation, and `/security-research`. Triggers: 'security-research', 'security research', 'security review', 'vulnerability audit', 'exploitability audit', '보안 리뷰', '취약점 감사'.",
+    "Status": "copied"
+  },
+  {
+    "Name": "security-review",
+    "Directory": "skills/security-review",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\opencode\\skills\\security-review",
+    "Hash": "E869ACD3F41EAFB847A3A48511E87926481CEA92C8675A74CBDE69C33E56CA71",
+    "Description": "Alias for security-research and /security-review. Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release security check, threat model validation, and `/security-research`. Triggers: 'security-research', 'security research', 'security review', 'vulnerability audit', 'exploitability audit', '보안 리뷰', '취약점 감사'.",
+    "Status": "copied"
+  },
+  {
+    "Name": "settings-precedence",
+    "Directory": "skills/settings-precedence",
+    "SourceType": "source-repo",
+    "SourceTool": "github-skills",
+    "SourcePath": "C:\\Users\\win10\\.vscode\\extensions\\ms-python.vscode-python-envs-1.36.0-win32-x64\\.github\\skills\\settings-precedence",
+    "Hash": "A4227501EB48E4140CB9D5E880472E967D5EE5CDF81586009372C32EC87A4CAE",
+    "Description": "VS Code settings precedence rules and common pitfalls. Essential for any code that reads or writes settings. Covers getConfiguration scope, inspect() vs get(), and multi-workspace handling.",
+    "Status": "copied"
+  },
+  {
+    "Name": "skill-creator",
+    "Directory": "skills/skill-creator",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Local\\StepFun\\StepFun.new\\resources\\skills\\skill-creator",
+    "Hash": "7DD034D0923E0AD9EEE28C2AB0A14A71A6FF94B45B0BD60685EBD17C517BB361",
+    "Description": "创建有效技能(Skill)的指南。当用户想要创建新技能（或更新现有技能）以扩展小跃的能力，包括专业知识、工作流程或工具集成时，应使用此技能。",
+    "Status": "copied"
+  },
+  {
+    "Name": "soft-skill",
+    "Directory": "skills/soft-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\soft-skill",
+    "Hash": "2D11CDCEFC8BF319429EE17D94D69A390802E2ACF7163662D1EACBCF5BE3FF79",
+    "Description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+    "Status": "copied"
+  },
+  {
+    "Name": "spreadsheets",
+    "Directory": "skills/spreadsheets",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\spreadsheets\\skills\\spreadsheets",
+    "Hash": "AF8500164D7008B097B553B389F564793767AB0B8B0FBEFB60BC0EC6C2A6C365",
+    "Description": "Use this skill when a user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) or Google Sheets-targeted spreadsheet artifacts with formulas, formatting, charts, tables, and recalculation.",
+    "Status": "copied"
+  },
+  {
+    "Name": "stitch-skill",
+    "Directory": "skills/stitch-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\stitch-skill",
+    "Hash": "56E41363D61FF565DBBA8C8C05C3D8E6538CCD6F49180A504737EDFCDBFFF409",
+    "Description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+    "Status": "copied"
+  },
+  {
+    "Name": "story-roleplay",
+    "Directory": "skills/story-roleplay",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\story-roleplay",
+    "Hash": "5B377304142D792E13688350FE80EAAB2587E47D4551D2345C3A35D0EA248CAF",
+    "Description": "Parse and apply character cards and world info files in multiple formats (PNG, WebP, JSON), fully compatible with SillyTavern format. Supports automatic parsing, keyword triggering, and dynamic updates.",
+    "Status": "copied"
+  },
+  {
+    "Name": "subagent-driven-development",
+    "Directory": "skills/subagent-driven-development",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\subagent-driven-development",
+    "Hash": "081AD3869E55C80BF8F890B4768A90C0E8057DAF94B1B6FADEBFC85EA5B8304A",
+    "Description": "Use when executing implementation plans with independent tasks in the current session",
+    "Status": "copied"
+  },
+  {
+    "Name": "systematic-debugging",
+    "Directory": "skills/systematic-debugging",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\systematic-debugging",
+    "Hash": "4999CB851360485ECA5074E727BBDD62EF20549C5D5B01216FCBF5831BADB473",
+    "Description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+    "Status": "copied"
+  },
+  {
+    "Name": "taste-skill",
+    "Directory": "skills/taste-skill",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\taste-skill",
+    "Hash": "2E064E92ACA020B2E0BAD69326FE7EA55D59005ED53D1A8CBCE1BD135D44B8B3",
+    "Description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+    "Status": "copied"
+  },
+  {
+    "Name": "taste-skill-v1",
+    "Directory": "skills/taste-skill-v1",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "D:\\财宝\\AgentWorkspace\\_workspace\\taste-skill\\skills\\taste-skill-v1",
+    "Hash": "FB6F7658C0E4A93940487112AD451A603B8988B886A59CA72E90F20064708928",
+    "Description": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.",
+    "Status": "copied"
+  },
+  {
+    "Name": "tauri-delivery-checklist",
+    "Directory": "skills/tauri-delivery-checklist",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.skills-manager\\skills\\tauri-delivery-checklist",
+    "Hash": "0CD9B00692A938B225A15BC4967B0F1837D688C603534BCFD8C7211B78B60D81",
+    "Description": "",
+    "Status": "copied"
+  },
+  {
+    "Name": "template-creator",
+    "Directory": "skills/template-creator",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\template-creator\\skills\\template-creator",
+    "Hash": "3F21FBB968FB9645ACDADB7C1057536B6865A31AF7E4E4601D44CF089E926D94",
+    "Description": "Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a template using, from, or based on an attached Word document, PowerPoint presentation, or Excel workbook, or explicitly asks to edit or update a passed artifact-template skill. Do not use for one-off artifact creation from an existing template.",
+    "Status": "copied"
+  },
+  {
+    "Name": "test-driven-development",
+    "Directory": "skills/test-driven-development",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\test-driven-development",
+    "Hash": "7DEE67B4AF6BDCCC7A914CA34533184D64592D0F5B23AEAE631538168DB14994",
+    "Description": "Use when implementing any feature or bugfix, before writing implementation code",
+    "Status": "copied"
+  },
+  {
+    "Name": "texlive-runtime-installer",
+    "Directory": "skills/texlive-runtime-installer",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled\\plugins\\latex\\skills\\texlive-runtime-installer",
+    "Hash": "82E904DF125642FC2272E1105D74450D6E9CF74E5945B73DACE56BAB0986B7D0",
+    "Description": "Detect existing TeX Live or MacTeX first, then optionally install a Codex-managed full TeX Live runtime only when no existing TeX Live installation is detected.",
+    "Status": "copied"
+  },
+  {
+    "Name": "using-git-worktrees",
+    "Directory": "skills/using-git-worktrees",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\using-git-worktrees",
+    "Hash": "DE9DCDE34840EEE074047EC327D4EA6CA4954C5A73A6D874DC48F25FE46C9E7C",
+    "Description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+    "Status": "copied"
+  },
+  {
+    "Name": "using-superpowers",
+    "Directory": "skills/using-superpowers",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\using-superpowers",
+    "Hash": "5FA548A85CE639DC6A2EA53607F9D405363C9B935004D0D95DC16E9629752D00",
+    "Description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+    "Status": "copied"
+  },
+  {
+    "Name": "verification-before-completion",
+    "Directory": "skills/verification-before-completion",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\verification-before-completion",
+    "Hash": "EA52D15AABAF72BC6B558EFE2C126F161B53961090DDCD712000273BFE8C7B6C",
+    "Description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+    "Status": "copied"
+  },
+  {
+    "Name": "writing-plans",
+    "Directory": "skills/writing-plans",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\writing-plans",
+    "Hash": "90056BAD3D5F196FA7C9FEC0FFE592E6D9C86BC983E406642A51D1A4198B7024",
+    "Description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+    "Status": "copied"
+  },
+  {
+    "Name": "writing-skills",
+    "Directory": "skills/writing-skills",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\superpowers-temp\\skills\\writing-skills",
+    "Hash": "38BA648975AE6BA512D6695676F146163DB61A496B867F716F4BDFB0EE3ACA3E",
+    "Description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+    "Status": "copied"
+  },
+  {
+    "Name": "x-recruiter",
+    "Directory": "skills/x-recruiter",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\x-recruiter",
+    "Hash": "224117835BD803E0AD93048E7927EAAB8A4B47C597A6D64986C248C937DDA566",
+    "Description": "用于在 X (x.com) 发布招聘帖子。包含文案规范、图片生成提示和自动化发布脚本。发布 AI 相关岗位或设计类岗位时优先使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "xiaohongshu-recruiter",
+    "Directory": "skills/xiaohongshu-recruiter",
+    "SourceType": "app-user-config",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\AppData\\Roaming\\AionUi\\config\\skills\\xiaohongshu-recruiter",
+    "Hash": "4C0A2E2E0FC3CFD2E79C74E8B85A7272AD9B83C5A6424B239770B75816B1C06D",
+    "Description": "用于在小红书上发布高质量的 AI 相关岗位招聘帖子。包含自动生成极客风格的招聘封面图和详情图，并提供自动化发布脚本。当用户需要发布招聘信息、寻找 Agent 设计师或其他 AI 领域人才时使用。",
+    "Status": "copied"
+  },
+  {
+    "Name": "xlsx",
+    "Directory": "skills/xlsx",
+    "SourceType": "source-repo",
+    "SourceTool": "",
+    "SourcePath": "C:\\Users\\win10\\.stepfun\\skill\\xlsx",
+    "Hash": "AB558A4DF3BF3B221A16E84299CB435BF94FB36DF548C3000455C19A7F0621D8",
+    "Description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When 小跃 needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+    "Status": "copied"
+  }
+]
