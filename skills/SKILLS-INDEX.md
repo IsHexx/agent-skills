@@ -1,7 +1,8 @@
 # Skills 全局索引
 
-> **118 个 skill，按 13 个分类子目录组织。**
+> **119 个 skill，按 13 个分类子目录组织。**
 > 整合记录：原 196 个 → 合并/去重减 78 → 118 个 → 归入 13 个分类子目录。
+> 新增：test-board（测试任务看板生成）。
 > 引用路径：`D:\agent-skills\skills\<分类>\<skill名>\SKILL.md`
 
 ---
@@ -132,13 +133,16 @@ cn-tax-employee-import, dingtalk-overtime-application, menu-module-sheet-grouper
 ### 招聘发布
 x-recruiter, xiaohongshu-recruiter
 
-## testing/ — 测试/质量（8）
+## testing/ — 测试/质量（9）
 
 ### 测试方法
 test-driven-development, systematic-debugging, debug-failing-test, verification-before-completion, regression-test-planner
 
 ### 金融/Excel 用例
 excel-testcase-reviewer, finance-testcase-reviewer, finance-testcase-writer
+
+### 任务看板
+test-board — 根据人员分工描述自动更新测试任务总表并生成 HTML/Excel 看板
 
 ## infra/ — 基础设施/环境（6）
 
