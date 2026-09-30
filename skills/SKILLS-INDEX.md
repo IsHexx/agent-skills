@@ -1,6 +1,6 @@
 # Skills 全局索引
 
-> **119 个 skill，按 13 个分类子目录组织。**
+> **120 个 skill，按 13 个分类子目录组织。**
 > 整合记录：原 196 个 → 合并/去重减 78 → 118 个 → 归入 13 个分类子目录。
 > 新增：test-board（测试任务看板生成）。
 > 引用路径：`D:\agent-skills\skills\<分类>\<skill名>\SKILL.md`
@@ -16,7 +16,7 @@ skills/
 ├── design/        (15) 设计参考 + 前端设计/品味
 ├── devflow/       (14) 开发流程 + skill 创建 + 输出控制
 ├── office/        (10) Office/文档/LaTeX/Obsidian/图表
-├── business/       (9) 业务/行业/财务/招聘
+├── business/       (10) 业务/行业/财务/招聘/发版
 ├── testing/        (8) 测试/质量/用例
 ├── infra/          (6) 基础设施/环境/框架
 ├── browser/        (4) 浏览器/自动化
@@ -119,7 +119,7 @@ writing-skills, skill-creator, template-creator
 ### 输出控制
 output-skill
 
-## business/ — 业务/行业（9）
+## business/ — 业务/行业（10）
 
 ### 财务/金融
 creating-financial-models, defect-excel-analysis-pipeline, market-research-reports
@@ -132,6 +132,9 @@ cn-tax-employee-import, dingtalk-overtime-application, menu-module-sheet-grouper
 
 ### 招聘发布
 x-recruiter, xiaohongshu-recruiter
+
+### 发版流程
+feishu-release — 创建蓝绿或停服发版单、PDF 缺陷单，归档飞书 Wiki 并按需发送通知
 
 ## testing/ — 测试/质量（9）
 

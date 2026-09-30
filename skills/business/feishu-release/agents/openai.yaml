@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞书发版流程"
+  short_description: "创建蓝绿或停服发版单、PDF缺陷单并按需发送飞书通知"
+  default_prompt: "使用 $feishu-release 创建指定时间的发版文件，并按我的要求归档和通知。"
+
+policy:
+  allow_implicit_invocation: true
