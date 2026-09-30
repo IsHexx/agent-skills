@@ -1,0 +1,4 @@
+interface:
+  display_name: "任务排期与人员看板"
+  short_description: "Schedule tasks and generate personnel boards"
+  default_prompt: "Use $task-scheduler to update a team task schedule and regenerate the person board."

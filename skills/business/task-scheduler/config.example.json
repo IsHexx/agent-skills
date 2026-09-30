@@ -1,0 +1,45 @@
+{
+  "source": {
+    "kind": "lark_base",
+    "base_token": "REPLACE_WITH_BASE_TOKEN",
+    "table_id": "REPLACE_WITH_TABLE_ID",
+    "identity": "user"
+  },
+  "board": {
+    "system_dir": "REPLACE_WITH_ABSOLUTE_OR_PROJECT_RELATIVE_PATH",
+    "sync_command": ["python", "sync_from_feishu.py", "--generate"],
+    "generate_command": ["python", "generate_person_task_board.py", "--input", "data/task_master.xlsx", "--output", "../person_task_board.html", "--excel-output", "../person_task_board.xlsx"]
+  },
+  "field_map": {
+    "id": "Task ID",
+    "title": "Task title",
+    "owner": "Owner",
+    "status": "Status",
+    "priority": "Priority",
+    "domain": "Domain",
+    "test_type": "Test type",
+    "case_start": "Case start",
+    "case_end": "Case end",
+    "execution_start": "Planned start",
+    "execution_end": "Planned end",
+    "actual_start": "Actual start",
+    "actual_end": "Actual end",
+    "expected_test": "Expected test date",
+    "expected_launch": "Expected launch date",
+    "remark": "Remark"
+  },
+  "states": {
+    "pending": "Pending schedule",
+    "completed": ["Completed", "Launched"]
+  },
+  "defaults": {
+    "source": "Product iteration",
+    "priority": "P1",
+    "execution_label": "Test execution"
+  },
+  "history": {
+    "month_start_days": 7,
+    "lookback": "previous_complete_week",
+    "use_actual_dates_for_completed_tasks": true
+  }
+}

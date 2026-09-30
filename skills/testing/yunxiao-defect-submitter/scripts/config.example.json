@@ -1,0 +1,41 @@
+{
+  "token": "<个人访问令牌，形如 pt-xxxx；也可用环境变量 YUNXIAO_TOKEN>",
+  "domain": "openapi-rdc.aliyuncs.com",
+  "organization_id": "<组织ID，云效链接 /organization/【这串】>",
+  "space_id": "<项目ID；可用 python probe_fields.py types 前先跑 projects 搜索，或设环境变量 YUNXIAO_SPACE_ID>",
+  "workitem_type_id": "<缺陷类型ID，用 python probe_fields.py types 获取>",
+  "default_assignee": "<默认指派人 userId>",
+  "users": {
+    "姓名": "<userId>"
+  },
+  "field_map": {
+    "严重程度": {
+      "field_id": "<用 python probe_fields.py fields 获取>",
+      "options": {
+        "致命": "",
+        "严重": "",
+        "一般": "",
+        "轻微": ""
+      }
+    },
+    "优先级": {
+      "field_id": "priority",
+      "options": {
+        "紧急": "",
+        "高": "",
+        "中": "",
+        "低": ""
+      }
+    },
+    "模块": {
+      "field_id": "",
+      "options": {
+      }
+    }
+  },
+  "sprints": {
+  },
+  "versions": {
+  },
+  "request_interval": 0.3
+}

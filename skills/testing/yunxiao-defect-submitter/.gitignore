@@ -1,0 +1,7 @@
+# 本地环境与个人配置（含令牌，严禁入库）
+.venv/
+scripts/config.json
+__pycache__/
+*.pyc
+_tax*
+_val*

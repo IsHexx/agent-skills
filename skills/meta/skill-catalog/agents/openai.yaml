@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 目录"
+  short_description: "查询、检索和维护本机 Skill 目录、状态与使用标签"
+  default_prompt: "使用 $skill-catalog 查询、推荐或刷新我的本机 Skill 目录。"

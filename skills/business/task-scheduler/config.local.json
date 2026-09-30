@@ -1,0 +1,45 @@
+{
+  "source": {
+    "kind": "lark_base",
+    "base_token": "JK47bvrutaXGPMs5rX5cLd5snDe",
+    "table_id": "tbl6FsoKLX5HaqeK",
+    "identity": "user"
+  },
+  "board": {
+    "system_dir": "D:\\财宝\\部门\\人员分工表\\人员看板系统",
+    "sync_command": ["python", "sync_from_feishu.py", "--generate"],
+    "generate_command": ["python", "generate_person_task_board.py", "--input", "data/测试管理甘特图_测试部门统一任务总表.xlsx", "--output", "../人员任务看板.html", "--excel-output", "../人员任务看板.xlsx"]
+  },
+  "field_map": {
+    "id": "任务编号",
+    "title": "任务标题",
+    "owner": "负责人",
+    "status": "当前状态",
+    "priority": "优先级",
+    "domain": "业务域",
+    "test_type": "测试类型",
+    "case_start": "用例开始时间",
+    "case_end": "用例结束时间",
+    "execution_start": "计划开始时间",
+    "execution_end": "计划完成时间",
+    "actual_start": "实际开始时间",
+    "actual_end": "实际结束时间",
+    "expected_test": "预计提测时间",
+    "expected_launch": "预计上线时间",
+    "remark": "备注"
+  },
+  "states": {
+    "pending": "待排期",
+    "completed": ["已完成", "已上线"]
+  },
+  "defaults": {
+    "source": "产品迭代",
+    "priority": "P1",
+    "execution_label": "测试执行"
+  },
+  "history": {
+    "month_start_days": 7,
+    "lookback": "previous_complete_week",
+    "use_actual_dates_for_completed_tasks": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "luoluo-mecha-light",
+  "displayName": "洛洛历险记·晴空机城",
+  "version": "1.0.1",
+  "css": "luoluo-mecha-light.css",
+  "art": "../assets/luoluo-mecha-light-hero-side_20260716.png",
+  "copy": {
+    "brandTitle": "洛洛历险记 · 晴空机城",
+    "brandSubtitle": "机战王的灵感基地",
+    "signature": "机战王 · 洛洛",
+    "tagline": "从这里出发，把每个想法变成新的冒险。",
+    "projectPrefix": "选择任务 · ",
+    "projectLabel": "机战任务台",
+    "ribbon": "✦"
+  },
+  "baseTheme": {
+    "mode": "light",
+    "codeTheme": "codex",
+    "accent": "#087BE8",
+    "contrast": 72,
+    "ink": "#142B4A",
+    "surface": "#F4FBFF",
+    "opaqueWindows": true,
+    "fonts": {
+      "windowsCode": "Cascadia Code",
+      "windowsUi": "Microsoft YaHei UI",
+      "macCode": "SF Mono",
+      "macUi": "PingFang SC"
+    },
+    "semanticColors": {
+      "diffAdded": "#C4F0DA",
+      "diffRemoved": "#FFD1CC",
+      "skill": "#FFE08A"
+    }
+  }
+}

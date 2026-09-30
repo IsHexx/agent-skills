@@ -1,0 +1,44 @@
+{
+  "platform": "<zentao / jira / yunxiao / tapd / 其他>",
+  "base_url": "<平台地址，如 http://zentao.公司内网 或 https://xxx.atlassian.net>",
+  "token": "<访问令牌或 API Token；也可用环境变量 DEFECT_TOKEN>",
+  "project": "<默认项目标识（禅道为产品/执行ID，Jira 为项目 key）>",
+  "project_name": "<默认项目显示名>",
+  "issue_type": "<缺陷类型标识，用 python probe_fields.py types 获取>",
+  "default_assignee": "<默认指派人的平台用户标识>",
+  "projects": {
+  },
+  "users": {
+    "姓名": "<平台用户标识>"
+  },
+  "field_map": {
+    "严重程度": {
+      "field_id": "<用 python probe_fields.py fields 获取>",
+      "options": {
+        "致命": "",
+        "严重": "",
+        "一般": "",
+        "轻微": ""
+      }
+    },
+    "优先级": {
+      "field_id": "",
+      "options": {
+        "紧急": "",
+        "高": "",
+        "中": "",
+        "低": ""
+      }
+    },
+    "模块": {
+      "field_id": "",
+      "options": {
+      }
+    }
+  },
+  "sprints": {
+  },
+  "versions": {
+  },
+  "request_interval": 0.3
+}

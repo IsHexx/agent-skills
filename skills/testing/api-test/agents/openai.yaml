@@ -1,0 +1,4 @@
+interface:
+  display_name: "接口自动化连续工作者"
+  short_description: "连续完成接口用例迁移、生成、门禁、授权执行与异常恢复"
+  default_prompt: "Use $api-test to migrate, generate, validate, execute, and recover API tests for a service module."

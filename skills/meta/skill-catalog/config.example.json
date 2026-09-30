@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "roots": [
+    {
+      "root_id": "hub-origin",
+      "source_type": "hub",
+      "path": "${SKILL_HUB_ROOT}",
+      "available_in": [],
+      "required": false,
+      "enabled": false,
+      "layout": "direct-children",
+      "max_depth": 1
+    },
+    {
+      "root_id": "agents-user",
+      "source_type": "user-entry",
+      "path": "${USERPROFILE}\\.agents\\skills",
+      "available_in": ["kimi-code"],
+      "required": true,
+      "enabled": true,
+      "layout": "direct-children",
+      "max_depth": 1
+    },
+    {
+      "root_id": "codex-user",
+      "source_type": "user-entry",
+      "path": "${CODEX_HOME}\\skills",
+      "available_in": ["codex"],
+      "required": false,
+      "enabled": true,
+      "layout": "nested",
+      "max_depth": 2
+    }
+  ],
+  "canonical": {
+    "path": "${USERPROFILE}\\.agents\\skills"
+  },
+  "platforms": [
+    {
+      "platform_id": "kimi-code",
+      "mode": "native",
+      "path": "${USERPROFILE}\\.agents\\skills",
+      "enabled": true,
+      "note": "Kimi Code 原生发现通用 Agent Skills 目录，无需复制或链接。"
+    },
+    {
+      "platform_id": "codex",
+      "mode": "junction",
+      "path": "${CODEX_HOME}\\skills",
+      "enabled": true,
+      "create_root": false,
+      "note": "仅为中央目录中不存在同名项的 Skill 建立目录链接。"
+    },
+    {
+      "platform_id": "claude-code",
+      "mode": "manual",
+      "path": "${USERPROFILE}\\.claude\\skills",
+      "enabled": false,
+      "note": "启用前需确认本机 Claude Code 的实际 Skill 发现方式。"
+    }
+  ],
+  "exclude_directory_names": [".git", "node_modules", "__pycache__", ".venv", "_cache", ".system", ".adopt_tmp", "adopt-backups"],
+  "allowed_categories": ["general", "observe"],
+  "panel": {
+    "host": "127.0.0.1",
+    "port": 8765
+  },
+  "index": {
+    "output_name": "INDEX.md",
+    "max_description_length": 160
+  }
+}
