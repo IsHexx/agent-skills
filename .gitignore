@@ -24,3 +24,6 @@ data_exports/
 # Agent internal
 .codegraph/
 .omo/
+
+# Local skill configs (may contain private tokens/paths)
+config.local.json
